@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #0044cc;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-section {
+    background-image: url('background.jpg'); /* Replace 'contact-bg.jpg' with the path to your image */
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #fff;
+}
+
+.contact-section h2, .contact-section h3, .contact-section p {
+    color: #fff; /* Ensure text is readable over the background */
+}
+
+section h2 {
+    color: #0044cc;
+}
+
+section img, section video {
+    max-width: 100%;
+    display: block;
+    margin: 1rem 0;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-gallery img {
+    max-width: 48%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.faculty-gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.faculty-member {
+    width: 30%;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.faculty-member img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.faculty-member p {
+    margin-top: 0.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    background-color: #0044cc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #003399;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #0044cc;
+    color: #fff;
+    width: 100%;
+    margin-top: 20px;
+}
